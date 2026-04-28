@@ -6,8 +6,9 @@ import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
 
-from find_airports import results_df, detected_airports
-
+# load data
+results_df = pd.read_csv("airport_validation_results.csv")
+detected_airports = pd.read_csv("detected_airports.csv")
 
 st.set_page_config(page_title="Airport Detection Dashboard", layout="wide")
 
