@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+flight_log.txt
+.DS_Store
+.idea/
